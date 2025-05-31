@@ -1,0 +1,9 @@
+[package]
+name = "fpga_sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+byteorder = { version = "*" }
+lazy_static = { version = "*" }
